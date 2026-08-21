@@ -13,7 +13,7 @@ window.__SITE_CONFIG = {
   // Where demo requests go. Shown on the page AND used for the mailto link,
   // because tapping a mailto on a phone is unreliable enough that a visible,
   // copyable address is worth having.
-  email: "",
+  email: "clinicchart919@gmail.com",
 
   // Optional. Digits only, with country code, no + or spaces.
   // e.g. "919876543210". Leave "" to hide the WhatsApp button.
