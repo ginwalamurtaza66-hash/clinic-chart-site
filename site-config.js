@@ -15,16 +15,26 @@ window.__SITE_CONFIG = {
   // copyable address is worth having.
   email: "clinicchart919@gmail.com",
 
-  // Optional. Digits only, with country code, no + or spaces.
-  // e.g. "919876543210". Leave "" to hide the WhatsApp button.
+  // Digits only, with country code, no + or spaces. e.g. "919876543210".
+  // Leave "" and the WhatsApp button is hidden.
+  //
+  // WORTH FILLING IN. Email alone is a weak call to action for a doctor
+  // reading this on a phone between patients, and every other contact route on
+  // the page is email. This is the cheapest thing on the site to fix.
   whatsapp: "",
 
   // Subject line pre-filled into the email. Keep it short.
   emailSubject: "Clinic Chart — demo request",
 
-  // Optional demo video. Put the file next to index.html and name it here.
+  // Demo video. Put the file next to index.html and name it here.
   // MP4 (H.264) plays everywhere; WebM does not play on older iPhones.
   // Leave "" and the section shows the still screenshot instead.
+  //
+  // THE BIGGEST GAP ON THIS SITE. The offline claim is the one thing that
+  // separates this from everything else a clinic could buy, and it is
+  // demonstrable in ten seconds -- aeroplane mode on, register a patient,
+  // write a prescription. Every other word here is an argument ABOUT that;
+  // two minutes of phone footage is the thing itself.
   demoVideo: "",
 
   // Shown while the video loads, and instead of it when demoVideo is "".
